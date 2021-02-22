@@ -4,13 +4,14 @@
 
 ## 開發環境
 
+```
 Python 3.7.6
 pytorch=='1.6.0+cu101' # need cuda 10.1
 detectron2==0.3
 moviepy==1.0.3
 numpy==1.20.1
 pandas==0.25.3
-
+```
 ## Dataset
 
 [HMDB51](https://serre-lab.clps.brown.edu/resource/hmdb-a-large-human-motion-database/)有六千多個影片(video), 每個影片為一種人物動作, 共 51 個動作類別
